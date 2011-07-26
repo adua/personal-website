@@ -1,0 +1,12 @@
+body 
+{
+  background: url('../wood.jpg');
+  background-repeat: no-repeat;
+  background-position:top;
+} 
+
+#wrapper
+{  
+  background-image:url('snow.jpg');
+}  
+      
