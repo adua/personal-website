@@ -9,4 +9,36 @@ body
 {  
   background-image:url('snow.jpg');
 }  
-      
+     
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #757575;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0f222e), to(#757575));
+   background: -webkit-linear-gradient(top, #0f222e, #757575);
+   background: -moz-linear-gradient(top, #0f222e, #757575);
+   background: -ms-linear-gradient(top, #0f222e, #757575);
+   background: -o-linear-gradient(top, #0f222e, #757575);
+   padding: 13px 26px;
+   -webkit-border-radius: 34px;
+   -moz-border-radius: 34px;
+   border-radius: 34px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 20px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   width:100px;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
